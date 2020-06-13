@@ -1,0 +1,194 @@
+header {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 5px;
+  }
+  
+  .headerLogo img {
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  max-width: 150px;
+  }
+  
+  .scoreStatus {
+    font-size: 20px;
+    color:rgb(3, 128, 3);
+    font-weight: bold;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-shadow: 1px 0.5px #fff;
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  body {
+  font-family: 'PT Sans Caption', sans-serif;
+  height: 100%;
+  background: url('https://ak1.picdn.net/shutterstock/videos/25412981/thumb/1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  }
+  
+  h1 {
+  color:rgb(3, 128, 3);
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 3px 2px #fff;
+  text-transform: uppercase;
+  }
+  
+  button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: rgb(241, 146, 21);
+  border: 1px solid white;
+  font-size: 18px;
+  border-radius: 80px;
+  margin-top: 100px;
+  padding: 15px;
+  cursor: grab;
+  box-shadow: 2px 2px #fff;
+  text-transform: uppercase;
+  }
+  
+  .startButton {
+  color: white;
+  font-weight: bold;
+  }
+  
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  .quizDocument {
+  width: 75%;
+  display: none;
+  }
+  
+  label {
+  cursor: graber;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  opacity: 0.7;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  outline: none;
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+  line-height: 15px;
+  }
+  
+  input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 15px;
+  }
+  main div {
+  margin: auto;
+  }
+  
+  fieldset {
+  border: none;
+  }
+  
+  form button {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 60px;
+  }
+  
+  .nextButton {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  }
+  
+  legend {
+  padding: 25px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 320px) {
+  
+  .headerLogo img {
+  margin-top: 10px;
+  max-width: 100px;
+  }
+  
+  .scoreStatus {
+  font-size: 10px;
+  font-weight: normal;
+  }
+  
+  h1 {
+  font-size: 15px;
+  text-shadow: 1px 0.05px #fff;
+  }
+  
+  button {
+  font-size:10px;  
+  }
+  
+  label {
+  padding: 8px;
+  }
+  
+  form button {
+  margin-top: 30px;
+  }
+  
+  fieldset {
+  margin-top: 5px;
+  font-size: 10px;
+  }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+  
+  .headerLogo img {
+  margin-top: 15px;
+  max-width: 120px;
+  }
+  
+  .scoreStatus {
+  font-size: 15px;
+  font-weight: normal;
+  }
+  
+  h1 {
+  font-size: 20px;
+  text-shadow: 1px 0.05px #fff;
+  }
+  
+  button {
+  font-size:12px;  
+  }
+  
+  label {
+  padding: 10px;
+  }
+  
+  form button {
+  margin-top: 40px;
+  }
+  
+  fieldset {
+  margin-top: 10px;
+  font-size: 12px;
+  }
+  
+  }
