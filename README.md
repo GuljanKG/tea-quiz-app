@@ -6,3 +6,6 @@ A small app that tests your knowledge on tea.
 - CSS
 - JavaScript
 - jQuery
+
+# Live Demo:
+https://guljankg.github.io/TeaQuizApp/
