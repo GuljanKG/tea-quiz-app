@@ -8,4 +8,4 @@ A small app that tests your knowledge on tea.
 - jQuery
 
 # Live Demo:
-https://guljankg.github.io/TeaQuizApp/
+https://guljankg.github.io/tea-quiz-app/
